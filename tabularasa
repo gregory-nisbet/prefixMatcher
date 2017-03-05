@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eufx
+
+make realclean
+make sandbox
+make testdeps
+make test
